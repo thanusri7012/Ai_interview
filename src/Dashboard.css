@@ -1,0 +1,48 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+}
+
+.dashboard-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+}
+
+.dashboard-header {
+    margin-bottom: 20px;
+}
+
+.dashboard-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dashboard-btn {
+    padding: 10px 20px;
+    background: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.resume-btn {
+    background: #ffc107;
+}
+
+.logout-btn {
+    background: #dc3545;
+}
+
+.back-btn {
+    background: #6c757d;
+}

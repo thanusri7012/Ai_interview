@@ -1,0 +1,145 @@
+.resume-analysis-container {
+    max-width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.resume-analysis-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* New Stylish Upload Button */
+.file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.file-upload input {
+    display: none;
+}
+
+.file-upload:hover {
+    background-color: #e9ecef;
+}
+
+/* Upload Button */
+.upload-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+}
+
+.upload-btn:hover {
+    background-color: #0056b3;
+}
+.analysis-container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #1a1a2e;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 400px;
+    text-align: justify;
+}
+
+.browse-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.browse-btn:hover {
+    background-color: #0056b3;
+}
+.resume-analyzer-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #1a1a2e;
+    color: white;
+    border-radius: 10px;
+}
+
+.browse-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+.browse-btn:hover {
+    background-color: #0056b3;
+}
+
+.analyze-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.analyze-btn:hover {
+    background-color: #218838;
+}
+
+.error-text {
+    color: red;
+    font-weight: bold;
+}
+
+.analysis-container {
+    background: #222;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: left;
+    max-height: 300px;
+    overflow-y: auto;
+}
