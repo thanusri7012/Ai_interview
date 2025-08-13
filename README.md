@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 🤖 AI Interview Assistant and Resume Analyzer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Description
+The **AI Interview Assistant and Resume Analyzer** is a full-stack application designed to help job seekers prepare for **technical** and **behavioral interviews** while optimizing their resumes with the power of **local AI**.  
+It leverages a local Large Language Model (LLM) — **Ollama** with the **Gemma 2B** model — to generate interview questions, evaluate answers, and provide detailed resume feedback.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Key Features
 
-### `npm start`
+### 🎯 AI-Powered Interview Simulation
+- **Dynamic Question Generation**: Generates unique, non-repeating interview questions on technical topics like **C**, **Java**, **Python**, **Data Structures**, and behavioral skills.
+- **Customizable Interviews**: Choose interview type (**Technical** or **Behavioral**) and difficulty (**Easy**, **Medium**, **Hard**).
+- **Interactive Interface**: Clean and intuitive UI to view questions, submit answers, and navigate the interview process.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🧠 Intelligent Answer Evaluation
+- **Real-time Feedback**: AI evaluates answers instantly.
+- **Scoring & Feedback**: Each answer gets a **score out of 10**, detailed strengths & weaknesses, and the **correct answer** for comparison.
+- **Structured Output**: Neatly formatted sections for easy readability.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📄 Resume Analysis with AI
+- **Automated Resume Review**: Upload your resume in **PDF** format.
+- **Actionable Feedback**: Get clear, specific suggestions to improve structure, clarity, and effectiveness.
 
-### `npm test`
+### 🗣 Enhanced Accessibility & Usability
+- **Text-to-Speech**: Uses Web Speech API to read out questions and feedback.
+- **Voice Commands**: Navigate hands-free with commands like `"next question"`, `"submit answer"`, `"stop audio"`.
+- **Voice Input for Answers**: Dictate your responses instead of typing.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠 Technology Stack
+**Frontend:**  
+- React.js with `react-router-dom` for navigation  
+- CSS for a modern, responsive UI  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Backend:**  
+- Node.js with Express.js  
+- `axios` for API calls  
+- `cors` for CORS handling  
+- `multer` for file uploads  
+- `pdf-parse` for extracting PDF text  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**AI/LLM:**  
+- Ollama with **Gemma 2B** model (runs locally for privacy & low latency)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙ How It Works
+1. **Start Interview** → User selects interview type & topic → Frontend sends request to backend.
+2. **Generate Question** → Backend prompts Ollama to create a unique question.
+3. **Evaluate Answer** → User answers (text/voice) → Backend evaluates and returns score + feedback + correct answer.
+4. **Analyze Resume** → User uploads PDF → Backend extracts text → Ollama analyzes and returns actionable suggestions.
+5. **Voice Integration** → Web Speech API handles Text-to-Speech and Speech Recognition for smooth interaction.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Purpose
+This project acts as a **private, AI-powered interview coach and resume consultant**,  
+demonstrating the potential of **local AI** for practical, real-world career preparation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
